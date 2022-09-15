@@ -7,7 +7,7 @@ main   {
    
 }
 header div.escudo {
-    background: url(/I.E_Atanasio_Girardot/images/header/escudo.png)no-repeat 10px;    
+    background: url(../images/header/escudo.png)no-repeat 10px;    
     position: relative;
 
     width: 150px;
@@ -17,7 +17,7 @@ header div.escudo {
     
 }
 header div.logo {
-    background: url(/I.E_Atanasio_Girardot/images/header/logo.png)no-repeat;
+    background: url(../images/header/logo.png)no-repeat;
     
     position: relative;
     margin: auto;
@@ -28,7 +28,7 @@ header div.logo {
 
 }
 main div.separacion {
-    background: url(/I.E_Atanasio_Girardot/images/main/separacion.svg);
+    background: url(../images/main/separacion.svg);
     margin-top: 10px;
     margin-left: -4px;
     margin-bottom: auto;
@@ -49,24 +49,24 @@ button {
    
 }
 main button.inicio {
-    background: url(/I.E_Atanasio_Girardot/images/header/inicio.svg)no-repeat center;
+    background: url(../images/header/inicio.svg)no-repeat center;
     cursor: pointer;
 
 }
 main button.noticias {
-    background: url(/I.E_Atanasio_Girardot/images/header/noticias.svg)no-repeat center;
+    background: url(../images/header/noticias.svg)no-repeat center;
     cursor: pointer;
 }
 main button.matriculas {
-    background: url(/I.E_Atanasio_Girardot/images/header/MATRICULAS.svg)no-repeat center;
+    background: url(../images/header/MATRICULAS.svg)no-repeat center;
     cursor: pointer;
 }
 main button.quienes_somos {
-    background: url(/I.E_Atanasio_Girardot/images/header/quienes_somos.svg)no-repeat center;
+    background: url(../images/header/quienes_somos.svg)no-repeat center;
     cursor: pointer;
 }
 main button.ingresar {
-    background: url(/I.E_Atanasio_Girardot/images/header/ingresar.svg)no-repeat center;
+    background: url(../images/header/ingresar.svg)no-repeat center;
     cursor: pointer;
 }
 

@@ -1,0 +1,122 @@
+:root{
+    --verde:#54925E;
+    --verdeclaro:#89EA9F;
+    --amarillo: #F7FB55;
+    --gris: #D9D9D9;
+    --blanco:#FFFFFF;
+    --negro: #000000;
+    --fuente:'Jura', sans-serif;
+
+
+}
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*,::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    
+    font-family: var(--fuente);
+    overflow-x: hidden;
+
+}
+.contenedor {
+    margin: 0 auto;
+    margin-right: -400px;
+    max-width: 1200px;
+    width: 95%;
+
+}
+
+.left-form {
+    position: absolute;
+   background: url(../Images/Imagen-Docente.png) no-repeat center;
+   display: flex;
+   height: 100%;
+   width: 50%;
+   float: left;
+   background-size: cover;
+}
+
+.escudo {
+    display: flex;
+    justify-content: center;
+    width: -500px;
+}
+.escudo img{
+    width: 420px;
+    margin-right: -1000px;
+}
+
+@media(min-width:768px){
+    .imagen-formulario{
+        height: auto;
+    }
+}
+
+.contenedor-formulario {
+    display: flex;
+    margin-right: -570px;
+    
+
+}
+@media(min-width:768px){
+    .contenedor-formulario{
+        display: flex;
+    }
+}
+.formulario{
+    background-color: var(--blanco);
+    margin-top: 50px;
+    
+}
+.texto-formulario h2{
+    color: var(--verde);
+}
+.texto-formulario input label, .password-olvidada a, .texto-formulario p{
+  color: var(--negro); 
+}
+.texto-formulario h2{
+    font-size: 60px;
+    text-align: center;
+}
+.texto-formulario p{
+    font-size: 22px;
+    text-align: center;
+}
+.input label{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.password-olvidada a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.input input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 15px;
+    outline: none;
+}
+.input input[type="submit"]{
+    background-color: var(--gris);
+    color: var(--blanco);
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    transition: background-color .3s ease-in-out;
+}
+.input input[type="submit"]:hover{
+    
+    cursor: pointer;
+    background-color: var(--verde);
+}

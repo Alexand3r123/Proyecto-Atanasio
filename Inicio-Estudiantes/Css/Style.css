@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura';
+}
+body{
+    background-image: url(../Imagenes/image\ 1.png);
+    background-size: auto;
+}
+nav{
+    max-width: 1370px;
+    margin: auto;
+    background-color: #71C785;
+    font-size: 20px;
+    margin-top: 22px;
+    
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.menu-horizontal >li:hover{
+    
+    background: #ffffff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #71C785,
+                0 0 50px #71C785,
+                0 0 100px #71C785;
+    transition: background-color .5s ease-in-out;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #71C785;
+    
+    
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgba(43, 38, 38, 0.651);
+    transition: background-color .5s ease-in-out;
+}
+.menu-vertical li a{
+    display: block;
+    color: rgb(230, 255, 6);
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+div.logo{
+    background-color: white;
+    margin-top: 0px;
+    
+}
+div.logo img{
+    margin-left: 50px;
+}
+div.Titulo{
+    margin-left: 380px;
+    margin-top: -210px;
+    width: 10px;
+    
+}
+header .Titulo img{
+    margin-top: 130px;
+    width: 180px;
+    margin-left: 200px;
+    cursor: pointer;
+    transition: all 2s;
+}
+header .Titulo img:hover{
+    transform: scale(1.1);
+}
+header .logo img{
+    width: 100px;
+    cursor: pointer;
+    transition: all 2s;
+}
+header .logo img:hover{
+    transform: scale(1.1);
+}
+header .menu-h img{
+    width: 150px;
+    margin-left: 1170px;
+    margin-top: -50px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.menu-h img:hover {
+    transform: scale(1.1);
+    
+}
+
+.container_header .menu-h {
+    margin-top: -20px;
+}

@@ -123,24 +123,26 @@ body {
     }
 }
 
-@media (max-width: 720px) {
-    .left-form {
-        display: none;
-    }
+@media screen and (max-width: 1670px ){
 
-    .escudo img {
-        margin-left: -380px;
-    }
-
-    .right-form {
-        justify-content: center;
-        width: 600px;
-    }
+    .container_escudo {
+        margin-left: -1000px;
+    } 
 
     .right-form form {
-        width: 95%;
-        padding: 0 1em;
+        width: 70%;
     }
+
+
 }
+
+
+
+
+
+
+
+
+
 
 

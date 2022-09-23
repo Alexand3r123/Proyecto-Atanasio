@@ -1,24 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 
-main   {
-    width: 1940;
+main {
+
+    border:  solid 4px red;
+    width: 1900px;
     height: 400px;
-   
 }
-header div.escudo {
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+ div.vector {
+    position: relative;
+    margin-top: 120px;
+
+}
+ div.vectorD {
+    position: relative;
+    left: 1800px;
+    margin-top: -107px;
+
+}
+
+
+ .escudo {
     background: url(../images/header/escudo.png)no-repeat 10px;    
     position: relative;
-
+    margin-left: 120px;
     width: 150px;
     height: 150px;
-    margin-top: -20px;
+    margin-top: -1px;
     padding: 40px;
     
 }
-header div.logo {
+ .logo {
     background: url(../images/header/logo.png)no-repeat;
-    
     position: relative;
     margin: auto;
     width: 400px;
@@ -27,45 +48,59 @@ header div.logo {
     bottom: -30px;
 
 }
-main div.separacion {
+div.separacion {
     background: url(../images/main/separacion.svg);
     margin-top: 10px;
     margin-left: -4px;
     margin-bottom: auto;
-    width: 1910px;
+    width: 1920px;
     height: 25px;
 }
 
-button {
-    
-    position: relative;
-   margin-top: 30px;
-    border:none;
-    width: 250px;
-    height: 58px;
-    margin-left: 100px;
-    
+
+
+
+
+
+
+ .buttons {
+    width: 1300px;
+  margin-left: 270PX;
+  margin-top: 20px;
+  position: relative;
+  
    
    
 }
-main button.inicio {
-    background: url(../images/header/inicio.svg)no-repeat center;
+ header button {
+   
+    border:none ;
+    position: static;
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    
+    
+ }
+header button.inicio {
+    background: url(../images/header/inicio.svg)no-repeat right;
     cursor: pointer;
+    
 
 }
-main button.noticias {
+header button.noticias {
     background: url(../images/header/noticias.svg)no-repeat center;
     cursor: pointer;
 }
-main button.matriculas {
-    background: url(../images/header/MATRICULAS.svg)no-repeat center;
+header button.matriculas {
+    background: url(../images/header/MATRICULAS.svg)no-repeat left;
     cursor: pointer;
 }
-main button.quienes_somos {
+header button.quienes_somos {
     background: url(../images/header/quienes_somos.svg)no-repeat center;
     cursor: pointer;
 }
-main button.ingresar {
+header button.ingresar {
     background: url(../images/header/ingresar.svg)no-repeat center;
     cursor: pointer;
 }

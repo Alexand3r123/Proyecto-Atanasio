@@ -15,25 +15,18 @@ body {
 
 
 
- div.vector {
-    position: relative;
-    margin-top: 120px;
+ 
 
-}
- div.vectorD {
-    position: relative;
-    left: 1800px;
-    margin-top: -107px;
 
-}
 
 
  .escudo {
+    
     background: url(../images/header/escudo.png)no-repeat 10px;    
     position: relative;
     margin-left: 120px;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     margin-top: -1px;
     padding: 40px;
     

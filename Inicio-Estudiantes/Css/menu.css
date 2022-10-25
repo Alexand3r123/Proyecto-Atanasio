@@ -204,5 +204,130 @@ footer {
     background-color: #7a7a7a;
 }
 
+/*burguer-menu*/
+
+#Burguer-menu{
+    
+    top: -40px;
+    right: -1250px;
+    width: 0px;
+    height: 6px;
+    margin: 50px;
+    background: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+
+
+
+#Burguer-menu span,
+#Burguer-menu span:before,
+#Burguer-menu span::after{
+    
+    background: #000000;
+    display: block;
+    height: 3px;
+    position: absolute;
+    transition: all 300ms ease;
+}
+
+#Burguer-menu span:before,
+#Burguer-menu span:after{
+    content: '';
+}
+
+#Burguer-menu span{
+    right: 0px;
+    top: -45px;
+    width: 47px;
+    
+}
+#Burguer-menu span:before{
+    left: 0px;
+    top: -10px;
+    width: 47px;
+}
+
+#Burguer-menu span:after{
+    left: 0px;
+    top: 10px;
+    width: 47px;
+}
+#Burguer-menu.close span{
+    transform: rotate(-45deg);
+    top: -45px;
+    width: 47px;
+    background: red;
+}
+
+#Burguer-menu.close span:before{
+    top: 0px;
+    transform: rotate(90deg);
+    width: 47px;
+    background: red;
+}
+
+#Burguer-menu.close span:after{
+    top: 0px;
+    left: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+    opacity: 0;
+}
+
+
+#menu{
+    
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    text-align: center;
+    padding-top: 20px;
+    visibility: hidden;
+    transition: all 300ms ease;
+
+}
+#menu.show{
+    opacity: 1;
+    visibility: visible;
+    padding-top: 200px;
+    background: rgba(3, 0, 0, 0.8);
+}
+
+#menu li{
+    list-style: none;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    
+}
+
+#menu li:hover{
+    letter-spacing: 2px;
+
+}
+
+
+#inicio{
+    width: 100%;
+    background: url(/Inicio-Estudiantes/Imagenes/image\ 1.png);
+    border: 2px solid red;
+    color: white;
+    margin-left: -1200px;
+    font-size: 32px;
+    text-decoration: none;
+    margin-bottom: 30px;  
+    
+
+}
+
 
 

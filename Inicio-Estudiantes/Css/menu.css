@@ -207,16 +207,15 @@ footer {
 /*burguer-menu*/
 
 #Burguer-menu{
-    
-    top: -40px;
-    right: -1250px;
-    width: 0px;
-    height: 6px;
-    margin: 50px;
+    top: -20%;
+    left: 95%;
+    width: 0%;
+    height: 6%;
     background: white;
     cursor: pointer;
     position: relative;
     z-index: 2;
+    cursor: pointer;
 
 
 }
@@ -281,7 +280,7 @@ footer {
 
 
 #menu{
-    
+   
     z-index: 1;
     min-width: 100%;
     min-height: 100%;
@@ -318,13 +317,14 @@ footer {
 
 #inicio{
     width: 100%;
-    background: url(/Inicio-Estudiantes/Imagenes/image\ 1.png);
+    height: 100%;
+    background: url(/Inicio-Estudiantes/Images/Secretaria.jpg)no-repeat;
+    background-position: left;
     border: 2px solid red;
-    color: white;
-    margin-left: -1200px;
+    color: rgb(0, 0, 0);
     font-size: 32px;
     text-decoration: none;
-    margin-bottom: 30px;  
+     
     
 
 }

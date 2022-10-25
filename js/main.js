@@ -1,4 +1,4 @@
-var imagenes =  ['images/main/img1.jpg',  'images/main/img2.jpg', 'images/main/img3.jpg'],
+var imagenes =  ['images/main/img1.jpg',  'images/main/img2.jpg', 'images/main/img3.jpg', 'images/main/Colegio3.jpg' , 'images/main/Colegio2.jpg' , 'images/main/Colegio1.jpg' ],
     cont = 0;
 
     function carrusel(contenedor) {

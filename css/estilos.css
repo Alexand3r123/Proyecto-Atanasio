@@ -17,8 +17,8 @@ img {
 }
 .contenedor {
     width: 100%;
-    position: relative;
-    height: 780px;
+    height: 600px;
+    margin-top: -59px;
 }
 .botones {
     font-size: 30px;
@@ -44,9 +44,25 @@ img {
 }
 .atras {
     left: 2%;
-    top: calc(50% - 70px);
+    top: calc(60% - 70px);
 }
 .adelante {
     right: 2%;
-    top: calc(50% - 70px);
+    top: calc(60% - 70px);
+}
+h2 {
+   
+    
+    margin-left: 750px;
+    margin-top: -80px;
+    color: aliceblue;
+    
+}
+ main button {
+    width: 200px;
+    padding: 14px;
+    margin-left: 750px;
+    margin-top: -70px;
+    position: absolute;
+    
 }

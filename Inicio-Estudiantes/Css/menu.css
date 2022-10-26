@@ -316,10 +316,28 @@ footer {
 
 
 #inicio{
-    width: 100%;
-    height: 100%;
-    background: url(/Inicio-Estudiantes/Images/Secretaria.jpg)no-repeat;
-    background-position: left;
+    margin: 150px;
+    padding: 250px;
+    padding-top: 2px;
+    margin-left: -1250px;
+    background: url(/Inicio-Estudiantes/Images/inicio.jpg)no-repeat;
+    background-position: center;
+    border: 2px solid red;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    text-decoration: none;
+     
+    
+
+}
+
+#matriculas{
+    margin: 150px;
+    padding: 250px;
+    padding-top: 1px;
+    margin-left: -296px;
+    background: url(/Inicio-Estudiantes/Images/inicio.jpg)no-repeat;
+    background-position: center;
     border: 2px solid red;
     color: rgb(0, 0, 0);
     font-size: 32px;

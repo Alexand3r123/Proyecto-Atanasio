@@ -114,14 +114,26 @@ main .separador {
 /* cuerpo de la página Noticias */ 
 .separador2 {
     margin-top: -6px;
+    padding: 0 0 40px 0;
+    background-color: white ;
 }
+.titulo {
+    background: url(/images/main/NOTICIAS\ ATANASIO\ GIRARDOT.svg)no-repeat center;
+    height: 80px;
+    width: 80%;
+    display: inline-block;
+    margin: 0 0 0 200px;
+    position: absolute;    
+   
+}
+ 
 section {
-    
+    margin-top: -5px;
     width: 100%;
-    height: 1500px;
-    background-color: 7a7a7a;
-    overflow:auto;
-    padding: 15%;
+    height: 1200px;
+    background-color: white;
+    overflow: hidden;
+    padding: 25%;
 }
 
 
@@ -138,8 +150,31 @@ section {
     justify-content: center;
     font-family: 'Jura';
     color: black;
+    position: absolute;
 }
 
+#NOTICIAS .texto2{
+    width: 450px;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Jura';
+    color: black;
+    position: absolute;
+    margin: 300px 0 0 0;
+}
+#NOTICIAS .texto3{
+    width: 450px;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Jura';
+    color: black;
+    position: absolute;
+    margin: 600px 0 0 0;
+}
 #NOTICIAS h2{
     padding: 50px;
     margin-top: -400px;
@@ -147,21 +182,58 @@ section {
     margin-left: 100px;
 }
 
-#NOTICIAS .img-container{
+#NOTICIAS .img-1{
     background-image: url("/Images/main/Colegio1.jpg");
     background-size: cover;
     background-position: center center;
     width: 300px;
     height: 250px;
     border-radius: 100%;
-    margin: -270px 0 0 -500px;
+    margin: -270px 0 0 -1000px;
+    position: absolute;
    
 }
-#NOTICIAS .ver1{
+#NOTICIAS .imagen1{
+    background-image: url("/Images/main/Colegio2.jpg");
+    background-size: cover;
+    background-position: center;    
+    width: 300px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 50px 0 0 -1000px ;
+    position: absolute;
+   
+   
+}
+#NOTICIAS .image2{
+    background-image: url("/Images/main/Colegio3.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 380px 0 0 -1000px;
+    position: absolute;
+   
+}
+#NOTICIAS button.ver{
     width: 100px;
     height: 50px;
     margin: -100px 0 0 750px;
+    border: 1px solid  black;
+    cursor: pointer ;
+    background-color:#3bc759;
+
 }
+
+/* HISTORIA */
+
+
+
+    
+
+
+    
 
 
 

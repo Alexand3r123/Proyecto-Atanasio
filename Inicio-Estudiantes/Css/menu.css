@@ -227,9 +227,9 @@ footer {
 #Burguer-menu span:before,
 #Burguer-menu span::after{
     
-    background: #3bc759;
+    background: #000000;
     display: block;
-    height: 9px;
+    height: 3px;
     position: absolute;
     transition: all 300ms ease;
 }
@@ -302,15 +302,12 @@ footer {
 }
 
 #menu li{
-    text-align: center;
-    width: 100%;
-     
- }
- #menu ul{
-     list-style: none;
-     justify-content: center;
-     display: flex;
- }
+    list-style: none;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    
+}
 
 #menu li:hover{
     letter-spacing: 2px;
@@ -318,50 +315,37 @@ footer {
 }
 
 
-#menu img{
-    width: 300px;
-    height: 300px;
-}
-
-#menu{
-    display: grid;
-    grid-template-columns:repeat(3, 1 fr);
-    grid-gap: 50px;
-    
-}
-
-
-
-#hamburguesa li{
-    text-align: center;
-    width: 100%;
+#inicio{
+    margin: 150px;
+    padding: 250px;
+    padding-top: 2px;
+    margin-left: -1250px;
+    background: url(/Inicio-Estudiantes/Images/inicio.jpg)no-repeat;
+    background-position: center;
+    border: 2px solid red;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    text-decoration: none;
      
- }
- #hambuerguesa ul{
-     list-style: none;
-     justify-content: center;
-     display: flex;
- }
-
-#hamburguesa li:hover{
-    letter-spacing: 2px;
-
-}
-
-
-#hamburguesa img{
-    width: 940px;
-    height: 400px;
-}
-
-#hamburguesa{
-    display: grid;
-    grid-template-columns:repeat(3, 1 fr);
-    grid-gap: 50px;
     
+
 }
 
+#matriculas{
+    margin: 150px;
+    padding: 250px;
+    padding-top: 1px;
+    margin-left: -296px;
+    background: url(/Inicio-Estudiantes/Images/inicio.jpg)no-repeat;
+    background-position: center;
+    border: 2px solid red;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    text-decoration: none;
+     
+    
 
+}
 
 
 

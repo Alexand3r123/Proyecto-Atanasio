@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #d4d4d4;
+    background-color: #ffffff;
 }
 
 header {
@@ -117,116 +117,122 @@ main .separador {
     padding: 0 0 40px 0;
     background-color: white ;
 }
-.titulo {
-    background: url(/images/main/NOTICIAS\ ATANASIO\ GIRARDOT.svg)no-repeat center;
+.titulo  {
+ 
     height: 80px;
     width: 80%;
     display: inline-block;
-    margin: 0 0 0 200px;
-    position: absolute;    
+    margin: -40px 0 0 200px;
+    position: absolute;
+       
    
 }
- 
-section {
-    margin-top: -5px;
-    width: 100%;
-    height: 1200px;
-    background-color: white;
-    overflow: hidden;
-    padding: 25%;
+
+
+#noticias {
+    margin: 100px 0 0 0;
+  
+    background-color: #fff;
+    height: 1550px;
+    border:  4px solid red;
 }
 
+.contenedor_noticias{
+    width: 1600px;
+    height: 360px;
 
-#NOTICIAS .container_noticias{
-    display: flex;
-    justify-content: space-evenly;
+    margin: 0 0 0 100px ;
+    padding: 10px 0 0 0  ;
+    
+    
+    
 }
-
-#NOTICIAS .texto{
-    width: 450px;
-    text-align: initial;
-    display: flex;
-    flex-direction: column;
+.contenido h2{
+    color: black ;
+    position: absolute;
+    margin: -100px 0 0 160px ;
+         
+}
+.contenido {
+    width: 500px;
+    margin: 100px 0 0  600px;
+    padding: 2rem;
+    position: absolute;
     justify-content: center;
-    font-family: 'Jura';
-    color: black;
-    position: absolute;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
 
-#NOTICIAS .texto2{
-    width: 450px;
-    text-align: initial;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Jura';
-    color: black;
+    
+    
+}
+.img_section img {
+   
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 20px 0 0 100px;
+    border-radius: 100%;
+    
     position: absolute;
-    margin: 300px 0 0 0;
 }
-#NOTICIAS .texto3{
-    width: 450px;
-    text-align: initial;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Jura';
-    color: black;
-    position: absolute;
-    margin: 600px 0 0 0;
-}
-#NOTICIAS h2{
-    padding: 50px;
-    margin-top: -400px;
-    color: black;
-    margin-left: 100px;
-}
+.button_ver button {
+border-radius: 50%;
+width: 70px;
+margin: 150px 0 0 1300px;
+height: 50px;
+background-color:#3bc759;
+cursor: pointer;
+ }
 
-#NOTICIAS .img-1{
-    background-image: url("/Images/main/Colegio1.jpg");
-    background-size: cover;
-    background-position: center center;
-    width: 300px;
-    height: 250px;
-    border-radius: 100%;
-    margin: -270px 0 0 -1000px;
-    position: absolute;
-   
-}
-#NOTICIAS .imagen1{
-    background-image: url("/Images/main/Colegio2.jpg");
-    background-size: cover;
-    background-position: center;    
-    width: 300px;
-    height: 250px;
-    border-radius: 100%;
-    margin: 50px 0 0 -1000px ;
-    position: absolute;
-   
-   
-}
-#NOTICIAS .image2{
-    background-image: url("/Images/main/Colegio3.jpg");
-    background-size: cover;
-    background-position: center center;
-    width: 300px;
-    height: 250px;
-    border-radius: 100%;
-    margin: 380px 0 0 -1000px;
-    position: absolute;
-   
-}
-#NOTICIAS button.ver{
-    width: 100px;
-    height: 50px;
-    margin: -100px 0 0 750px;
-    border: 1px solid  black;
-    cursor: pointer ;
-    background-color:#3bc759;
 
-}
+
 
 /* HISTORIA */
+
+#historia {
+
+  
+    background-color: #fff;
+    height: 900px;
+    border:  4px solid red;
+}
+.contenedor_historia {
+    width: 100%;
+    height: 895px;
+    border:  4px solid red;
+    margin: 0 0 0 4px ;
+    padding: 10px 0 0 0  ;
+}
+.historia_de_la_institucion h1  {
+    
+    margin: -180px 0 0 70px ;
+    position: absolute;
+    font-size: 4rem;
+
+}
+.historia_de_la_institucion {
+    width: 600px;
+    height: 700px;
+    margin: 180px 0 0  990px;
+    padding: 2rem;
+    position: absolute;
+    justify-content: center ;
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    border: 4px solid red;
+    position: absolute;
+
+}
+
+.img_historia img {
+    
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 90px 0 0 300px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+
 
 
 

@@ -3,7 +3,7 @@
 		include_once('php_conexion.php'); 
 		include_once('Class/funciones.php'); 
 		include_once('Class/class_alumnos.php');
-		if($_SESSION['tipo_usu']=='a' or $_SESSION['tipo_usu']=='u'){
+		if($_SESSION['tipo_usu']=='a' or $_SESSION['tipo_usu']=='d'){
 		}else{
 			header('location:error.php');
 		}

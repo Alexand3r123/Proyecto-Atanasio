@@ -2,8 +2,9 @@
  		session_start();
 		include_once('php_conexion.php'); 
 		
-		if($_SESSION['tipo_usu']=='a' or $_SESSION['tipo_usu']=='u'){
-		}else{
+		if($_SESSION['tipo_usu']=='a'){
+		}
+		else{
 			header('location:error.php');
 		}
 

@@ -139,7 +139,7 @@ header .escudo {
 
 .team .card-body i {
     font-size: 20px;
-    border: 3px solid rgb(0, 184, 40);
+    border: 3px solid #00b828;
 }
 
 /* Responsive */
@@ -199,9 +199,22 @@ h2 {
 .text-historia {
     color: #fff;
     font-size: 18px;
+    text-align: justify;
 }
 
+.about-img .img-fluid {
+    width: 500px;
+    height: 450px;
+    margin-top: 180px;
+}
 
+@media screen and (max-width: 991px) {
+    .about-img .img-fluid {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0 0 0;
+    }
+}
 
 /* Noticias */
 
@@ -218,53 +231,53 @@ h2 {
     width: 100%;
 }
 
-.blog-section .row {
+.blog-section .section-content {
     width: 85%;
     margin: 20px auto;
 }
 
-.blog-section .row .title{
+.blog-section .section-content .title{
     width: 100%;
     text-align: center;
     margin: auto;
     padding: 0 0 30px 0;
 }
 
-.blog-section .row .title p {
+.blog-section .section-content .title p {
     font-size: 18px;
     color: #6a6a6a;
     margin-top: 20px;
 }
 
-.blog-section .row .cards {
+.blog-section .section-content .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     margin: 25px auto;
 }
 
-.blog-section .row .cards .card{
+.blog-section .section-content .cards .card{
    width: 100%;
    background-color: #60d479;
    position: relative;
 }
 
-.blog-section .row .cards .card img {
+.blog-section .section-content .cards .card img {
     width: 100%;
     height: auto; 
  }
 
- .blog-section .row .cards .card .article {
+ .blog-section .section-content .cards .card .article {
     padding: 15px 20px;
  }
 
- .blog-section .row .cards .card .article h4 {
+ .blog-section .section-content .cards .card .article h4 {
     font-size: 16px;
     margin: 10px 0px;
     color: #fff;
  }
 
- .blog-section .row .cards .card a {
+ .blog-section .section-content .cards .card a {
     text-decoration: none;
     display: inline-block;
     background-color: #fff;
@@ -275,7 +288,7 @@ h2 {
     margin-bottom: 20px;
  }
 
- .blog-section .row .cards .card .posted-date p {
+ .blog-section .section-content .cards .card .posted-date p {
     font-weight: 600;
     position: absolute;
     top: 0;
@@ -286,13 +299,13 @@ h2 {
  }
 
  @media screen and (max-width: 992px) {
-    .blog-section .row .cards {
+    .blog-section .section-content .cards {
         grid-template-columns: repeat(2, 1fr);
     }
  }
 
  @media screen and (max-width: 768px) {
-    .blog-section .row .cards {
+    .blog-section .section-content .cards {
         grid-template-columns: 1fr;
     }
  }
@@ -303,6 +316,28 @@ h2 {
  .separador3 img {
     width: 100%;
  }
+
+ /* Escudo - Bandera */
+
+ .about-img .img-escudo {
+    width: 300px;
+    margin-top: 190px;
+ }
+
+ @media screen and (max-width: 991px) {
+    .about-img .img-escudo {
+        width: 250px;
+        margin: -50px 0 5% 33%;
+    }
+ }
+
+ @media screen and (max-width: 767px) {
+    .about-img .img-escudo {
+        width: 240px;
+        margin: -40px 0 6% 27%;
+    }
+ }
+
 
  /* Pie de página - footer*/
 
@@ -395,17 +430,42 @@ footer {
     background-color: #7a7a7a;
 }
 
+@media screen and (max-width: 1265px) {
+    .container__footer {
+       display: block;
+    }
+
+    .terminos {
+        text-align: justify;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .container__footer {
+        display: block;
+        align-items: center;
+    }
+
+    .terminos {
+        text-align: justify;
+        margin: 0 auto;
+    }
+}
+
+
 /* Responsive Titulo Noticias */
 
 @media screen and (max-width: 1500px){
     #noticias .title img {
-        width: 1100px;
+        width: 1200px;
     }
 }
 
 @media screen and (max-width: 1280px){
     #noticias .title img {
         width: 1000px;
+        text-align: center;
     }
 }
 
